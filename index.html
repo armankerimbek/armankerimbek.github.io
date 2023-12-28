@@ -10,8 +10,7 @@
     body {
         margin: 0;
         padding: 0;
-        background: url('construction_background.jpg') center/contain no-repeat; 
-        /* Adjust background properties to fit the image better */
+        background: url('construction_background.jpg') center/cover no-repeat;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -20,15 +19,16 @@
         color: white;
         font-family: 'Comfortaa', sans-serif;
     }
-
+    
     h1 {
-        font-size: 3em;
-        margin-top: 20px;
+        font-size: 3vw; /* Responsive font size based on viewport width */
+        margin-top: 10px; /* Adjusted margin for better spacing */
+    }
+    
+    p {
+        margin-top: 5px; /* Adjusted margin for better spacing */
     }
 
-    p {
-        margin-top: 10px;
-    }
 </style>
 </head>
 <body>
